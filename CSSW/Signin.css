@@ -1,0 +1,169 @@
+*   {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1  {
+    font-size: 40px;
+}
+
+h2  {
+    color: white;
+}
+a   {
+    text-decoration: none;
+}
+
+h4  {
+    font-weight: lighter;
+    color: #6d6d6d;
+}
+
+p   {
+    font-size: 20px;
+}
+
+#buttonStudent{
+    background-color: #698EEE;
+    transition: 0.5s;
+}
+
+#buttonStudent:hover {
+    color: white;
+    background-color: blue;
+}
+
+#buttonStaff{
+    background-color: rgb(255, 120, 143);
+    transition: 0.5s;
+}
+
+#buttonStaff:hover {
+    background-color: red;
+    color: white;
+}
+
+#buttonStudent,#buttonStaff  {
+    height: 15px;
+    width: 150px;
+    border-radius: 15px;
+}
+
+#usernameField,#passwordField,#l_nameField,#f_nameField,#emailField   {
+    border: 0;
+    width: 300px;
+    border-radius: 25px;
+    height: 10px;
+}
+
+#signinButton{
+    width: 100px;
+    background-color: #000AFF;
+    border-radius: 25px;
+    color: white;
+    border: 0;
+}
+
+#CurrentPage{
+
+    color: black;
+    font-weight: 600;
+}
+
+body    {
+    display: flex;
+    background-image: url(/TBIS/Images/bus-index.jpeg);
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+}
+
+.bodyDiv    {
+    display: flex;
+}
+
+.mainDiv{
+    padding: 30px;
+    border-radius: 60px;
+    width: 1080px;
+    height: 500px;
+    display: flex;
+    background-color: #EFF3FB;
+    box-shadow: rgba(0, 0, 0, 0.5) 6px 6px 7px 0px;
+}
+
+
+.studentSwitch,.staffSwitch, .guestSwitch  {
+    float: left;
+    padding: 5px ;
+    display: flex;
+    align-items: center;
+    border-radius: 25px;
+    height: 10px;
+    width: 90px;
+}
+
+.switchDiv  {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+.logoDiv    {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+    height: 110px;
+    width: 380px;
+    background-color: #698EEE;
+    box-shadow: rgba(194, 194, 194, 0.96) 3px 3px 6px 0px;
+
+}
+
+.rightDiv   {
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    width: 600px;
+}
+
+.leftDiv    {
+    align-items: center;
+    margin: 20px;
+    border-right: solid #A4A3A3;
+    width: 600px;
+    float: left;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+h1 {
+    text-align: center;
+}
+.card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+.card h2 {
+    margin-top: 0;
+}
+.card p {
+    margin-bottom: 0;
+}
+.card ul {
+    margin-top: 5px;
+    padding-left: 20px;
+}

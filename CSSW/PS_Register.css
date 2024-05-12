@@ -1,0 +1,23 @@
+#buttonStaff,
+#buttonStudent,
+#buttonGuest {
+    display: flex;
+    margin-left: 5%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: #4fa7ff;
+    width: 130px;
+    height: 35px;
+    font-size: 100%;
+    color: #ffffff;
+    box-shadow: rgba(140, 140, 140, 0.96) 3px 3px 4px;
+}
+
+#buttonStaff:hover,
+#buttonStudent:hover,
+#buttonGuest:hover {
+    background-color: #4fa7ff;
+    color: #272727;
+}

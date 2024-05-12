@@ -1,0 +1,76 @@
+.container {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.advert {
+    margin-bottom: 20px; /* Add space between each review */
+    padding: 15px; /* Add padding inside each review box */
+    border: 1px solid #ccc; /* Add a border around each review */
+    border-radius: 5px; /* Rounded corners for each review */
+}
+
+.AdvertButton {
+    background-color: #503df8; /* Red color for delete button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 8px 12px; /* Add some padding */
+    cursor: pointer; /* Cursor style */
+    border-radius: 3px; /* Rounded corners */
+}
+
+.AdvertButton:hover {
+    background-color: #3d04b7; /* Darker red color on hover */
+}.contact {
+    background-color: #fff; /* White background */
+    padding: 20px; /* Add some padding */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+}
+
+.contact-form {
+    margin: 0 auto; /* Center the form horizontally */
+    max-width: 400px; /* Set maximum width for better readability */
+}
+
+.contact-form h1 {
+    margin-bottom: 20px; /* Add some space below the heading */
+}
+
+.contact-form p {
+    margin-bottom: 20px; /* Add some space below the paragraph */
+}
+
+.contact-form textarea {
+    width: 100%; /* Full width */
+    padding: 10px; /* Add padding */
+    margin-bottom: 20px; /* Add some space below the textarea */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 5px; /* Rounded corners */
+    resize: vertical; /* Allow vertical resizing */
+    
+        width: 100%;
+        height: 100%;
+        padding: 10px; /* Add padding as needed */
+        box-sizing: border-box; /* Include padding and border in the width and height */
+        border: 1px solid #ccc; /* Add a border */
+        resize: none; /* Disable resizing */
+        font-size: 16px; /* Adjust font size as needed */
+        font-family: Arial, sans-serif; /* Specify font family */
+    
+}
+
+.AdvertButton {
+    background-color: #007bff; /* Blue color for send button */
+    color: white; /* White text color */
+    border: none; /* No border */
+    padding: 10px 20px; /* Add padding */
+    cursor: pointer; /* Cursor style */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.AdvertButton:hover {
+    background-color: #0056b3; /* Darker blue color on hover */
+}

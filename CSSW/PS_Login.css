@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    /* padding: 2%; */
+
+
+    /* border: 1px solid red; */
+
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+h1 {
+    font-size: 250%;
+}
+
+p {
+    font-size: 130%;
+    line-height: 160%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+body {
+    margin: 0;
+    height: 100lvh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.HomeButton {
+    border-radius: 20px;
+    padding: 1%;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #4fa7ff3e;
+    color: #f8f8f8;
+    box-shadow: black 1px 1px 2px;
+    border: 1px solid #4fa7ff;
+}
+.HomeButton:hover   {
+    background-color: #ffffff;
+    color: #4fa7ff;
+    font-weight: 700;
+}
+
+
+.body_Div {
+    width: 1080px;
+    height: 500px;
+    padding: 1%;
+    border-radius: 60px;
+    display: flex;
+    background-color: #EFFFFB;
+    box-shadow: rgba(0, 0, 0, 0.5) 6px 6px 7px 0px;
+}
+
+
+.logoDiv {
+    margin-bottom: 8%;
+    width: 300px;
+    height: 100px;
+    padding: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    background-color: #4fa7ff;
+    box-shadow: rgba(0, 0, 0, 0.5) 6px 6px 7px;
+
+    /* border:3px solid rgb(213, 70, 22); */
+
+}
+
+.Left-side_Div, .Right-side_Div{
+    padding: 4%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Left-side_Div{
+    padding-top: 0px;
+}
+
+
+.Right-side_Div {
+    border-left: 2px solid #4fa7ff;
+}
+
+.Right-header_Div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    /* border:3px solid rgb(213, 22, 162); */
+}
+
+.Right-header_Div {
+    width: 100%;
+}
+
+.Right-Form_Div {
+    width: 75%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+
+    /* border:3px solid rgb(70, 213, 22); */
+}
+
+#usernameField,
+#passwordField,
+#l_nameField,
+#f_nameField,
+#emailField,
+#Department,
+#Program,
+#email,
+#l_name,
+#f_name {
+    border: 0;
+    padding: 4%;
+    width: 95%;
+    border-radius: 25px;
+    border: 1px solid black;
+
+    /* border: 3px solid #00905d; */
+}
+
+#logo {
+    width: 30%;
+}
+
+#img-01 {
+    width: 100%;
+}
+
+#signinButton {
+    margin-left: 3%;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #4fa7ff;
+    border: 1px solid  #4fa7ff ;
+
+    width: 130px;
+    height: 35px;
+    font-size: 100%;
+    color: #ffffff;
+}
+
+#signinButton:hover {
+    background-color: #ffffff;
+    color: #4fa7ff;
+}
+
+#greenlink  {
+    color: #4fa7ff;
+}
+
+

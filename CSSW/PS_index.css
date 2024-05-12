@@ -1,0 +1,260 @@
+*   {
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    /* border: 1px solid rgb(255, 0, 0); */
+}
+
+body    {
+    margin: 0px;
+    padding: 0px;
+    background-color: #ffffff;
+}
+
+h1  {
+    font-size: 250%;
+}
+
+h2  {
+    font-size: 200%;
+    font-weight: 200;
+}
+
+p   {
+    font-size: 80%;
+    line-height: 160%;
+}
+
+a   {
+    color: #4fa7ff;
+    text-decoration: none;
+}
+
+
+
+#services   {
+    font-size: 400%;
+    margin-bottom: 0%;
+}
+
+#GetStarted {
+    border-radius: 15px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4fa7ff;
+    color: #ffffff;
+    width: 130px;
+    height: 30px;
+    font-size: 130%;
+}
+
+#GetStarted:hover,#Register:hover  {
+    color: #000000;
+    border: 1px solid #272727;
+    background-color: #ffffff;
+
+}
+
+.Back-to-Top    {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    right: 10px;
+    color: #ffffff;
+    font-size: 90%;
+    padding: 1%;
+    background-color: #4fa7ff;
+}
+
+.navigationBar_Div {
+    height: 50px;
+    padding: 1.5%;
+    display: flex;
+    font-size: 120%;
+    background-color: #272727;
+
+    /* border: solid 3px red; */
+}
+
+.navigation-Links_Div   {
+    display: flex;
+    width: 85%;
+    align-items: center;
+    gap: 3%;
+
+    /* border: solid 3px rgb(255, 221, 0); */
+}
+
+.navigation-Buttons_Div {
+    width: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+    /* border: solid 3px rgb(13, 255, 0); */
+} 
+
+#login  {
+    color: white;
+}
+
+#Register   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35%;
+    height: 70%;
+    font-size: 80%;
+    color: black;
+    background-color: #4fa7ff;
+    border-radius: 15px;
+}
+
+.Screen01_Div   {
+    display: flex;
+    background-color:  #272727;
+    color: white;
+    height: 100lvh;
+    justify-content: center;
+
+    /* border: solid 3px rgb(0, 255, 132); */
+}
+
+.Screen02_Div    {
+    margin-bottom: 0;
+    display: flex;
+    background-color:  #fdfdfd;
+    color: white;
+    height: 100lvh;
+    
+    /* border: solid 3px rgb(255, 25, 186); */
+}
+
+.Screen03_Div{
+    display: flex;
+    margin-top: 0;
+    width: 100%;
+    height: 130vh;
+    background-color: white;
+}
+
+.content01_Div   {
+    display: flex;
+    padding: 3%;
+    font-size: 200%;
+    width: 65%;
+    align-items: center;
+    
+    /* background-color: #e2ff09; */
+    /* border: solid 3px red; */
+}
+
+.content02_Div  {
+    padding-top: 1.5%;
+    margin-right: 1.5%;
+    display: flex-inline;
+    font-size: 200%;
+    width: 50%;
+    color: black;
+    align-items: center;
+
+    /* background-color: #ff8c09; */
+    /* border: solid 3px rgb(25, 255, 59); */
+}
+
+.content03_Div   {
+    display:flex-inline;
+    width: 50%;
+    padding: 2% 5%;
+
+    /* background-color: #53ff09; */
+    /* border: solid 3px rgb(0, 255, 149); */
+}
+
+
+.content04_Div  {
+    padding: 1% 5% ;
+    text-align: center;
+    display: flex-inline;
+}
+
+.content04_Div p {
+    font-size: 140%;;
+}
+
+.contactBlock_Div   {
+    font-size: 150%;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 200px;
+    color: white;
+    background-color: #272727;
+}
+
+.content03_Div ul   {
+    padding: 0% 5%;
+}
+
+.content03_Div lI   {
+    padding: 2% 5%;
+    font-size: 150%;
+}
+
+.services_links {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+}
+
+.image01_Div    {
+    /* padding-right: 40px; */
+    display: flex;
+    width: 60%;
+    justify-content: left;
+    align-items: center;
+
+    /* border: solid 3px red; */
+}
+
+.image02_Div    {
+    display: flex;
+    width: 45%;
+    justify-content:center;
+    align-items: center;
+
+    /* border: solid 3px red; */
+}
+
+.image03_Div    {
+    display: flex;
+    float: right;
+    justify-content: center;
+    width: 40%;
+
+    /* border: solid 3px red; */
+}
+
+#img01  {
+    width:  90%;
+    border-radius: 15px;
+}
+
+#img02 {
+    border-radius: 15px;
+    width: 70%;
+
+}
+
+#img03  {
+    border-radius: 15px;
+    width: 75%;
+}
+
